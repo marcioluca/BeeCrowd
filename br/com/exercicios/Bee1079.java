@@ -6,8 +6,8 @@ public class Bee1079 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         Double[] n = new Double[3];
-        Integer nCasos = s.nextInt();
-        Double mediaPonderada = 0.0;
+        int nCasos = s.nextInt();
+        double mediaPonderada = 0.0;
         while (nCasos != 0) {
             for (int i = 0; i < n.length; i++) {
                 n[i] = s.nextDouble();
