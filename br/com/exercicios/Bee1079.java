@@ -7,7 +7,7 @@ public class Bee1079 {
         Scanner s = new Scanner(System.in);
         Double[] n = new Double[3];
         int nCasos = s.nextInt();
-        double mediaPonderada = 0.0;
+        double mediaPonderada;
         while (nCasos != 0) {
             for (int i = 0; i < n.length; i++) {
                 n[i] = s.nextDouble();
@@ -19,7 +19,6 @@ public class Bee1079 {
             System.out.printf("%.1f%n", mediaPonderada);
             nCasos--;
         }
-        ;
 
     }
 }
