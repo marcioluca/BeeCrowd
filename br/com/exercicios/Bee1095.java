@@ -3,12 +3,12 @@ package br.com.exercicios;
 // Sequencia IJ 1
 public class Bee1095 {
     public static void main(String[] args) {
-        int n = 1;
-        int n2 = 60;
-        for (int i = 0; i <= 12; i++) {
-            System.out.println("I=" + n + " J=" + n2);
-            n += 3;
-            n2 -= 5;
+        int i = 1;
+        int j = 60;
+        for (int n = 0; n <= 12; n++) {
+            System.out.println("I=" + i + " J=" + j);
+            i += 3;
+            j -= 5;
         }
     }
 }
