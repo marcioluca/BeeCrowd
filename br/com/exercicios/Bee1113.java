@@ -4,20 +4,20 @@ import java.util.Scanner;
 
 public class Bee1113 {
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
-        Integer[] numeros = new Integer[2];
+        Scanner scanner = new Scanner(System.in);
         int x, y;
+
         do {
-            for (int i = 0; i < numeros.length; i++) {
-                numeros[i] = s.nextInt();
-            }
-            x = numeros[0];
-            y = numeros[1];
-            if( x > y) {
-                System.out.println("Decrescente");
-            } else if( y > x) {
+            x = scanner.nextInt();
+            y = scanner.nextInt();
+
+            if (x < y) {
                 System.out.println("Crescente");
+            } else if (x > y) {
+                System.out.println("Decrescente");
             }
+
         } while (x != y);
+
     }
 }
