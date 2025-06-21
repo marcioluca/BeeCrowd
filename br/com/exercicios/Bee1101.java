@@ -6,16 +6,16 @@ public class Bee1101 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int m, n;
-        do{
+        while(true) {
             m = s.nextInt();
             n = s.nextInt();
-            if(m <= 0 || n <= 0) {
-                return;
+            if (m <= 0 || n <= 0) {
+                break;
             }
             int sum = 0;
             int inicio;
             int fim;
-            if(m > n) {
+            if (m > n) {
                 inicio = n;
                 fim = m;
             } else {
@@ -23,11 +23,11 @@ public class Bee1101 {
                 fim = n;
             }
 
-            for (int i = inicio; i <= fim ; i++) {
+            for (int i = inicio; i <= fim; i++) {
                 System.out.print(i + " ");
                 sum += i;
             }
             System.out.println("Sum=" + sum);
-        } while(m != 0 || n != 0);
+        }
         }
 }
