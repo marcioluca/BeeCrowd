@@ -1,3 +1,5 @@
+package br.com.exercicios;
+
 import java.util.Scanner;
 
 // Ultrapassando Z..
