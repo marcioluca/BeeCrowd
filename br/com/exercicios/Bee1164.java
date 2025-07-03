@@ -30,6 +30,6 @@ public class Bee1164 {
             }
 
         }
-
+        sc.close();
     }
 }
