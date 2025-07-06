@@ -1,5 +1,4 @@
 package br.com.exercicios;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Bee1175 {
