@@ -10,6 +10,8 @@ public class Bee2679 {
         do { x++; }while (x % 2 != 0);
 
         System.out.println(x);
+
+        sc.close();
     }
 
 }
