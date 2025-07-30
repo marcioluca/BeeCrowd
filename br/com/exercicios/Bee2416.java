@@ -10,6 +10,7 @@ public class Bee2416 {
 
         System.out.println(c % n);
 
+        sc.close();
 
     }
 
