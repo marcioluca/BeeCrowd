@@ -18,5 +18,6 @@ public class Bee1043 {
             double p = (a + b) * c;
             System.out.printf("Area = %.1f%n", p);
         }
+        s.close();
     }
 }
