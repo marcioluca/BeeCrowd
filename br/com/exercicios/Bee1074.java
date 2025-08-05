@@ -3,12 +3,11 @@ package br.com.exercicios;
 import java.util.Scanner;
 
 public class Bee1074 {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        Integer qtdeDeNumeros  = s.nextInt();
-//        Integer[] numeros = new Integer[qtdeDeNumeros];
+        int qtdeDeNumeros  = s.nextInt();
         for (int i = 1; i <= qtdeDeNumeros; i++) {
-            Integer numeros = s.nextInt();
+            int numeros = s.nextInt();
             if(numeros == 0){
                 System.out.println("NULL");
             } else if(numeros % 2 == 0) {
@@ -25,5 +24,6 @@ public class Bee1074 {
                 }
             }
         }
+        s.close();
     }
 }
