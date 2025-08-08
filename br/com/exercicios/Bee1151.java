@@ -7,7 +7,6 @@ import java.util.Scanner;
  * gerar e imprimir os N primeiros termos da sequência de Fibonacci.
  * A sequência é impressa em uma única linha, separada por espaços,
  * sem um espaço extra no final.
- *
  * A sequência de Fibonacci é definida pela seguinte regra:
  * - O primeiro termo é 0.
  * - O segundo termo é 1.
