@@ -2,8 +2,22 @@ package br.com.exercicios;
 
 import java.util.Scanner;
 
-// Bee 1061 - Tempo de um Evento
-// https://www.beecrowd.com.br/judge/pt/problems/view/1061
+/**
+ * Bee 1061 - Tempo de um Evento
+ * <p>
+ * Problema: Dado o dia e hora de início e fim de um evento, calcular a duração total em dias, horas, minutos e segundos.
+ * <p>
+ * Entrada:
+ * - Primeira linha: "Dia X" (X = dia de início)
+ * - Segunda linha: "hh : mm : ss" (hora de início)
+ * - Terceira linha: "Dia Y" (Y = dia de fim)
+ * - Quarta linha: "hh : mm : ss" (hora de fim)
+ * <p>
+ * Saída:
+ * - Duração do evento em dias, horas, minutos e segundos.
+ * <p>
+ * Link: https://www.beecrowd.com.br/judge/pt/problems/view/1061
+ */
 public class Bee1061 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
