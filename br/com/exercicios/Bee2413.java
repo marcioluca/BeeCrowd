@@ -9,5 +9,6 @@ public class Bee2413 {
         Integer n3 = s.nextInt();
         Integer n1 = 4;
         System.out.println(n1 * n3);
+        s.close();
     }
 }
