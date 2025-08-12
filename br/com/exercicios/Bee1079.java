@@ -19,6 +19,7 @@ public class Bee1079 {
             System.out.printf("%.1f%n", mediaPonderada);
             nCasos--;
         }
+        s.close();
 
     }
 }
