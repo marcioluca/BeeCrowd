@@ -25,5 +25,7 @@ public class Bee1182 {
         } else if(T == 'M') {
             System.out.printf("%.1f\n", soma / 12);
         }
+        s.close();
     }
+
 }
