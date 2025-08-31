@@ -2,6 +2,12 @@ package br.com.exercicios;
 
 import java.util.Scanner;
 
+/**
+ * Bee 1094 - Experiências
+ * Este código resolve o problema "Bee 1094 - Experiências", que consiste em ler dados de experimentos
+ * com cobaias (coelhos, ratos e sapos), calcular o total de cada tipo e seus percentuais em relação
+ * ao total de cobaias.
+ */
 public class Bee1094 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
@@ -38,6 +44,6 @@ public class Bee1094 {
         System.out.printf("Percentual de sapos: %.2f %%\n", percentualSapo);
 
 
-
+        leitor.close();
     }
 }
