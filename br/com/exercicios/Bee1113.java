@@ -2,6 +2,7 @@ package br.com.exercicios;
 
 import java.util.Scanner;
 
+/** Bee 1113 - Crescente e Decrescente */
 public class Bee1113 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -18,6 +19,6 @@ public class Bee1113 {
             }
 
         } while (x != y);
-
+        scanner.close();
     }
 }
