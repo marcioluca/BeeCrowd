@@ -2,6 +2,7 @@ package br.com.exercicios;
 
 import java.util.Scanner;
 
+/** Bee Crowd 1133 - Resto 2 */
 public class Bee1133 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
@@ -23,7 +24,7 @@ public class Bee1133 {
             if(i % 5 == 2 || i % 5 == 3) {
                 System.out.println(i);
             }
-
+        s.close();
         }
     }
 }
