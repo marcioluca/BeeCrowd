@@ -1,6 +1,7 @@
 package br.com.exercicios;
 
 import java.util.Scanner;
+/** Bee Crowd 1101 - Sequencia de Numeros e Soma */
 
 public class Bee1101 {
     public static void main(String[] args) {
@@ -29,5 +30,6 @@ public class Bee1101 {
             }
             System.out.println("Sum=" + sum);
         }
+        s.close();
         }
 }
