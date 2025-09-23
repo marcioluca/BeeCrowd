@@ -20,5 +20,6 @@ public class Bee2388 {
         } while (n != 0);
 
         System.out.println(distanciaTotalPercorrida);
+        sc.close();
     }
 }
