@@ -34,6 +34,6 @@ public class Bee1131 {
         System.out.println("Gremio:" + vitoriasGremio);
         System.out.println("Empates:" + empate);
         System.out.println( maisVitorioso + " venceu mais");
-
+        leitor.close();
     }
 }
